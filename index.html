@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper and Scissor</title>
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--/-->
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <!--/-->
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="titulo">
+            <h1>Juego Piedra, Papel o Tijera</h1>
+        </div>
+        <div class="caja-puntos">
+            <p>Puntos: <span id="puntos">0</span></p>
+        </div>
+    </div>
+    <!--/-->
+
+    <!-- CONTENIDO -->
+    <div class="contenido">
+
+        <!-- SELECCION -->
+        <div class="seleccion">
+            <div class="mensaje">
+                <h2>Selecciona un objeto</h2>
+                <p>Si ganas 3 puntos ganas</p>
+            </div>
+            <select name="objeto" id="objetos" class="objetos">
+                <option value="piedra">Piedra</option>
+                <option value="papel">Papel</option>
+                <option value="tijera">Tijera</option>
+            </select>
+            <button id="aceptar">Aceptar</button>
+        </div>
+        <!--/-->
+
+        <!-- RESULTADO -->
+        <div class="resultado">
+            <h2 id="afirmacion"></h2>
+            <div class="resultado-final">
+                <div class="caja-resultado">
+                    <p id="resultadoP"></p>
+                </div>
+                <div class="caja-resultado">
+                    <p id="resultadoM"></p>
+                </div>
+            </div>
+            <button id="sig-ronda">Siguiente ronda</button>
+        </div>
+        <!--/-->
+
+        <!-- FINALIZAR -->
+        <div class="finalizar">
+            <h2 id="afir-final"></h2>
+            <button id="continuar">Continuar</button>
+        </div>
+        <!--/-->
+
+    </div>
+    <!--/-->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy;By Carl115</p>
+    </footer>
+    <!--/-->
+
+    <script src="./index.js"></script>
+</body>
+</html>

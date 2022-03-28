@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #0a9396;
+    width: 100%;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .titulo {
+    margin: 0 60px;
+    font-size: 30px;
+}
+
+.header .caja-puntos {
+    background: #005f73;
+    width: 150px;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 45px;
+    margin: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-/-*/
+
+/* CONTENIDO */
+.contenido {
+    background: #005f73;
+    width: 100%;
+    height: 481px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SELECCTION */
+.seleccion {
+    background: #0a9396;
+    width: 45%;
+    height: 85%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seleccion .mensaje h2 {
+    margin-top: 40px;
+    font-size: 55px;
+}
+
+.seleccion .mensaje p {
+    font-size: 35px;
+}
+
+.seleccion select {
+    background: #a8dadc;
+    width: 250px;
+    height: 35px;
+    margin: 35px 0;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.seleccion select:hover {
+    cursor: pointer;
+}
+
+.seleccion select:focus {
+    outline: none;
+}
+
+.seleccion button {
+    background: #a8dadc;
+    width: 120px;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.seleccion button:hover {
+    background: #5BA5A8 ;
+    color: #ffffff;
+    cursor: pointer;
+}
+/*-/-*/
+
+/* RESULTADO */
+.resultado {
+    width: 45%;
+    height: 85%;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resultado h2 {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+.resultado .resultado-final {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin: 30px 0;
+}
+
+.resultado .caja-resultado {
+    background: #0a9396;
+    width: 175px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado button {
+    background: #a8dadc;
+    width: 130px;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.resultado button:hover {
+    background: #5BA5A8 ;
+    color: #ffffff;
+    cursor: pointer;
+}
+/*-/-*/
+
+/* FINALIZAR */
+.finalizar {
+    background: #0a9396;
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.finalizar h2 {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.finalizar button {
+    background: #a8dadc;
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.finalizar button:hover {
+    background: #5BA5A8 ;
+    color: #ffffff;
+    cursor: pointer;
+}
+/*-/-*/
+
+/*-/-*/
+
+/* FOOTER */
+footer {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+/*-/-*/
