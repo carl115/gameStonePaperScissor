@@ -89,7 +89,7 @@
     background: #a8dadc;
     width: 120px;
     height: 35px;
-    margin-top: 25px;
+    margin: 25px 0;
     border: none;
     border-radius: 6px;
     font-size: 25px;
@@ -199,5 +199,136 @@ footer {
     color: #ffffff;
     text-align: center;
     font-size: 25px;
+}
+/*-/-*/
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    body {
+        height: 100vh;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .header .titulo h1 {
+        font-size: 45px;
+    }
+
+    .header .caja-puntos {
+        width: 100px;
+        height: 30px;
+    }
+
+    .contenido {
+        height: 82%;
+        padding: 17px 0;
+        align-items: center;
+    }
+
+    .contenido .seleccion {
+        width: 60%;
+        height: auto;
+    }
+
+    .contenido .resultado {
+        height: auto;
+    }
+
+    .contenido .resultado h2 {
+        margin: 0;  
+    }
+
+    .contenido .finalizar {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .header .titulo {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .header .titulo h1 {
+        font-size: 35px;
+    }
+
+    .header .caja-puntos {
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .contenido {
+        height: 84%;
+    }
+
+    .contenido .seleccion {
+        width: 90%;
+    }
+
+    .contenido .resultado .resultado-final {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header .titulo {
+        margin-left: 5px;
+    }
+
+    .header .titulo h1 {
+        font-size: 30px;
+    }
+
+    .header .caja-puntos {
+        margin-right: 5px;
+    }
+
+    .contenido .seleccion .mensaje h2 {
+        font-size: 45px;
+    }
+
+    .contenido .seleccion .mensaje p {
+        font-size: 30px;
+    }
+
+    .contenido .resultado .resultado-final .caja-resultado {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .titulo h1 {
+        font-size: 25px;
+    }
+
+    .header .caja-puntos p {
+        font-size: 25px;
+    }
+
+    .contenido {
+        height: 82%;
+        padding: 10px 0;
+    }
+
+    .contenido .seleccion .mensaje h2 {
+        font-size: 35px;
+    }
+
+    .contenido .seleccion .mensaje p {
+        font-size: 25px;
+    }
+
+    .contenido .seleccion select {
+        width: 210px;
+    }
 }
 /*-/-*/
